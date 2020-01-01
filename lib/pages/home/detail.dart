@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:new_wra/model/database.dart';
 
 class DetailPage extends StatefulWidget {
   final DecorationImage type;

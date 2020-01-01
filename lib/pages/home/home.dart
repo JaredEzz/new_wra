@@ -193,11 +193,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                   return cardDemoDummy(item, backCardPosition, 0.0, 0.0,
                       backCardWidth, 0.0, 0.0, context);
                 }
-              }).toList()
-            )
-            : new Text("No Activities Left",
-        style: new TextStyle(color: Colors.white, fontSize:  50.0)
-        ),
+              }).toList())
+            : new Text("No Events Left",
+        style: new TextStyle(color: Colors.white, fontSize:  50.0)),
       ),
     );
   }
